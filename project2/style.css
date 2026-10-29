@@ -1,0 +1,171 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    color: #243047;
+}
+
+
+header {
+    background-color: #2457d6;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+
+nav {
+    background-color: #172554;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+
+.container {
+    width: 90%;
+    max-width: 480px;
+    margin: 40px auto;
+}
+
+
+.card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px #00000012;
+}
+
+.card h2 {
+    text-align: center;
+    color: #2457d6;
+}
+
+.card p {
+    line-height: 1.5;
+}
+
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+
+input:not([type="checkbox"]),
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+
+input:focus,
+textarea:focus {
+    outline: 2px solid #2457d6;
+    outline-offset: 2px;
+    border-color: #2457d6;
+}
+
+
+input:invalid:not(:placeholder-shown) {
+    border-color: #dc2626;
+}
+
+input:focus:invalid {
+    outline-color: #dc2626;
+}
+
+
+.check {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: normal;
+}
+
+.check input {
+    width: auto;
+}
+
+
+button,
+.btn {
+    display: inline-block;
+    width: 100%;
+    margin-top: 18px;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: #2457d6;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover,
+.btn:hover {
+    background-color: #173eaa;
+}
+
+button:focus-visible,
+a:focus-visible {
+    outline: 3px solid #f59e0b;
+    outline-offset: 3px;
+}
+
+.secondary {
+    background-color: #475569;
+}
+
+
+a {
+    color: #2457d6;
+}
+
+nav a {
+    color: white;
+}
+
+.forgot {
+    text-align: right;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+
+@media (max-width: 480px) {
+    .container {
+        width: 94%;
+        margin: 20px auto;
+    }
+
+    .card {
+        padding: 18px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 6px;
+    }
+}

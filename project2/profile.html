@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Setup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+        <section class="card">
+            <h2>Set Up Your Profile</h2>
+            <p>Enter your personal details.</p>
+
+            <form action="#" method="post">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name"
+                       autocomplete="name" required>
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone"
+                       autocomplete="tel"
+                       pattern="[0-9]{10}"
+                       title="Enter a 10-digit phone number" required>
+
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob">
+
+                <label for="bio">About Me</label>
+                <textarea id="bio" name="bio"
+                          rows="4" maxlength="250"
+                          placeholder="Write a short introduction"></textarea>
+
+                <button type="submit">Save Profile</button>
+            </form>
+
+            <p><a href="login.html">Back to Login</a></p>
+        </section>
+    </main>
+
+</body>
+</html>
