@@ -1,0 +1,154 @@
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f5fb;
+    color: #222;
+}
+
+header {
+    background-color: #25205f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+}
+
+nav a:hover {
+    background-color: #d94b91;
+    border-radius: 5px;
+}
+
+.banner {
+    background: linear-gradient(135deg, #4935a5, #d94b91);
+    color: white;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #ffd166;
+    color: #222;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 30px 6%;
+}
+
+h2 {
+    text-align: center;
+    color: #25205f;
+}
+
+.event-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    flex: 1;
+    min-width: 200px;
+}
+
+.card h3 {
+    color: #d94b91;
+}
+
+.card a {
+    color: #4935a5;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #25205f;
+    color: white;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+}
+
+input, select {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #25205f;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #25205f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    .event-container {
+        flex-direction: column;
+    }
+
+    .banner {
+        padding: 45px 15px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    th, td {
+        padding: 6px;
+    }
+}

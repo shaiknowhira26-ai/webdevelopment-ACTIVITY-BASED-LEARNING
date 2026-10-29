@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration - FESTO 2026</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Student Registration</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="technical.html">Technical</a>
+        <a href="cultural.html">Cultural</a>
+        <a href="workshops.html">Workshops</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="coordinators.html">Coordinators</a>
+        <a href="rules.html">Rules</a>
+        <a href="register.html">Register</a>
+    </nav>
+</header>
+
+<main>
+    <section class="banner">
+        <h2>Join FESTO 2026</h2>
+        <p>Register and showcase your talent!</p>
+    </section>
+
+    <section>
+        <h2>Registration Form</h2>
+
+        <form action="#" method="post">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name"
+                   placeholder="Enter your full name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email"
+                   placeholder="Enter your email" required>
+
+            <label for="college">College Name:</label>
+            <input type="text" id="college" name="college"
+                   placeholder="Enter your college name" required>
+
+            <label for="branch">Branch:</label>
+            <input type="text" id="branch" name="branch"
+                   placeholder="Example: CSE" required>
+
+            <label for="event">Choose an Event:</label>
+            <select id="event" name="event" required>
+                <option value="">Select an event</option>
+                <option value="coding">Coding Competition</option>
+                <option value="robotics">Robotics Challenge</option>
+                <option value="quiz">Technical Quiz</option>
+                <option value="dance">Dance Competition</option>
+                <option value="singing">Singing Competition</option>
+                <option value="drama">Drama Competition</option>
+                <option value="web">Web Development Workshop</option>
+                <option value="ai">AI Workshop</option>
+                <option value="design">Graphic Design Workshop</option>
+            </select>
+
+            <button type="submit">Submit Registration</button>
+        </form>
+
+        <p class="center">
+            Please check the event schedule before registering.
+        </p>
+    </section>
+</main>
+
+<footer>
+    <p>FESTO 2026 | Student Registration</p>
+</footer>
+
+</body>
+</html>
