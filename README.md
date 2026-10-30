@@ -1,4 +1,9 @@
 # 🌐 Web Development – Activity-Based Learning Projects
+Details:
+Name:Shaik Nowhira
+Roll no:26001179
+Branch:CSM-05
+College:DrRVR NRI (DTBU)
 
 Welcome to my **Web Development Activity-Based Learning** repository! This repository contains my hands-on web development projects created to practice and improve my skills in HTML and CSS.
 
